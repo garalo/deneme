@@ -1,4 +1,8 @@
 Deneme::Application.routes.draw do
+  get "home/index"
+
+  get "home/about"
+
   # get "payments/index"
 
   get "payments/confirm"
